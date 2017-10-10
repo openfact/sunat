@@ -11,5 +11,5 @@ mvn versions:set -DnewVersion="$releaseVersion"
 
 git add .
 git commit -m "Prepare release $releaseVersion"
-git push https://`$username`:`$password`@github.com/openfact/sunat.git
+git push "https://$username:$password@github.com/openfact/sunat.git"
 
