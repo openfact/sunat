@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+read -s -p "Enter Github Username: " username
+read -s -p "Enter Github Password: " password
+
 releaseVersion=1.0.3
 nextVersion=1.0.4
 
@@ -8,7 +11,7 @@ mvn versions:set -DnewVersion="$releaseVersion"
 
 git add .
 git commit -m "Prepare release $releaseVersion"
-git push https://`$1`:`$2`@github.com/openfact/sunat.git
+git push https://`$username`:`$password`@github.com/openfact/sunat.git
 
 # Create tag and push
 git tag "$releaseVersion"
