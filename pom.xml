@@ -4,7 +4,7 @@
 
     <groupId>org.sistcoop</groupId>
     <artifactId>sunat</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <name>Openfact SUNAT</name>
     <description>Basic classes for SUNAT-PERU</description>
