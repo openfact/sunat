@@ -5,7 +5,6 @@ read -p "Enter Release: " releaseVersion
 read -p "Enter Next Release: " nextVersion
 read -p "Enter Github Username: " username
 read -s -p "Enter Github Password: " password
-echo "===================================="
 
 # Update to release
 mvn versions:set -DnewVersion="$releaseVersion"
