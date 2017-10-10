@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
 
-echo "Configuring release \n"
-read -s "Enter Release: " releaseVersion
-echo "\n"
-read -s "Enter Next Release: " nextVersion
-echo "\n"
-read -s "Enter Github Username: " username
-echo "\n"
+echo "===================================="
+read -p "Enter Release: " releaseVersion
+read -p "Enter Next Release: " nextVersion
+read -p "Enter Github Username: " username
 read -s -p "Enter Github Password: " password
-echo "\n"
+echo "===================================="
 
 # Update to release
 mvn versions:set -DnewVersion="$releaseVersion"
