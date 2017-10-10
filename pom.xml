@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.sistcoop</groupId>
@@ -60,8 +61,7 @@
         <connection>scm:git:git://github.com/openfact/sunat.git</connection>
         <developerConnection>scm:git:git@github.com:openfact/sunat.git</developerConnection>
         <url>https://github.com/openfact/sunat/tree/master/</url>
-      <tag>1.0.0</tag>
-  </scm>
+    </scm>
 
     <distributionManagement>
         <snapshotRepository>
@@ -125,7 +125,8 @@
                             <bindingIncludes>
                                 <include>*.xml</include>
                             </bindingIncludes>
-                            <generateDirectory>${project.build.directory}/generated-sources/schemas/ubl/ubl21/pe</generateDirectory>
+                            <generateDirectory>${project.build.directory}/generated-sources/schemas/ubl/ubl21/pe
+                            </generateDirectory>
                         </configuration>
                     </execution>
                 </executions>
