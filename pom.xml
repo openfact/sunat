@@ -4,7 +4,7 @@
 
     <groupId>org.sistcoop</groupId>
     <artifactId>sunat</artifactId>
-    <version>1.0.9-SNAPSHOT</version>
+    <version>1.0.9</version>
 
     <name>Openfact SUNAT</name>
     <description>Basic classes for SUNAT-PERU</description>
@@ -267,7 +267,7 @@
                 </plugins>
             </build>
         </profile>
-        
+
         <profile>
             <id>doclint-java8-disable</id>
             <activation>
